@@ -36,43 +36,59 @@ form{
   border: 1px solid black;
 }
 
-.phonebook__label{
+label{
   display: block;
   margin-bottom: 6px;
   font-size: 20px;
   font-weight: 700;
 }
 
-.phonebook__input{
+input{
   width: 86%;
   height: 24px;
   outline: none;
   margin-bottom: 20px;
 }
-.phonebook__input:focus,
-.phonebook__input:hover{
+input:focus,
+input:hover{
   border: 2px solid rgba(122, 200, 255, 0.525);
   transform: scale(1.1);
   transition:cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .phonebook__btn{
-  border-radius: 15%;
   background-color: white;
   margin: auto;
 }
 
 .phonebook__btn:hover,
 .phonebook__btn:focus{
-  background-color: rgba(122, 200, 255, 0.525);
+  border-radius: 15%;
   transform: scale(1.2);
   transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.contact-search__input{
+  width: 250px;
 }
 
 .contact-list__item{
   font-family: monospace;
   font-size: 24px;
   color: rgba(0, 85, 255, 0.525);
+}
+
+.contact-list__btn{
+  margin-left: 16px;
+  background-color: white;
+  height: 24px;
+}
+
+.contact-list__btn:hover,
+.contact-list__btn:focus{
+  border-radius: 15%;
+  transform: scale(1.2);
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 
